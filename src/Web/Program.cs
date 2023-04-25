@@ -22,7 +22,7 @@ using Microsoft.FeatureManagement;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-//myfirst comments  push    
+//myfirst comments test    
 builder.Logging.AddConsole();
     //My second change
 Microsoft.eShopWeb.Infrastructure.Dependencies.ConfigureServices(builder.Configuration, builder.Services);

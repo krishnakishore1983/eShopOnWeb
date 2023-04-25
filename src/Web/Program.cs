@@ -24,7 +24,7 @@ using Microsoft.IdentityModel.Tokens;
 var builder = WebApplication.CreateBuilder(args);
 //myfirst comments test    
 builder.Logging.AddConsole();
-    //My second change
+    //My second change1244
 Microsoft.eShopWeb.Infrastructure.Dependencies.ConfigureServices(builder.Configuration, builder.Services);
 
 builder.Services.AddCookieSettings();
